@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kode Mono", monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: #6E8898;
+}
+
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    height: 50vh;
+    width: 25vw;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+ 
+h2{
+    font-size: xx-large;
+}
+
+form input{
+    border: 1px solid lightgray;
+    font-size: 1.85rem;
+    height: 3rem;
+    padding-left: 0.80rem ;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.dropdown i{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.select-container img {
+    max-width: 2.5rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    border: 1px solid lightgray;
+    border-radius: 5px ;
+}
+
+.msg{
+    margin: 1rem 0 1rem 0;
+}
+
+form button{
+    height: 3rem;
+    border: 2px solid grey;
+    background-color: #6E8898;
+    font-size: x-large;
+    color: white;
+    cursor: pointer;
+}
