@@ -13,7 +13,7 @@ When user select a country using dropdown list, then he have to enter the amount
 #### Get all items
 
  ```http
-  "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies"
+  "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/inr.json"
 ```
 
 ## Authors
