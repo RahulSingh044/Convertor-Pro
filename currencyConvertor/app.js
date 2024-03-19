@@ -41,10 +41,10 @@ btn.addEventListener("click", async (evt) => {
     amount.value = "1";
   }
    
-   const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
+   const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}.json`;
    let response = await fetch(URL);
    let data = await response.json();
-   let rate = data[toCurr.value.toLowerCase()];
+   let rate = data[fromCurr.value.toLowerCase()][toCurr.value.toLowerCase()];
   
   let finalAmount = rate * amtVal;
 
