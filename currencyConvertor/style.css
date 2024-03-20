@@ -81,3 +81,30 @@ form button{
     color: white;
     cursor: pointer;
 }
+
+@media only screen and (max-width:320px) {
+    .container{
+        height: 65vh;
+        width: 65vw;
+    }
+}
+
+@media only screen and (min-width:480px) {
+    .container{
+        height: 50vh;
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        height: 55vh;
+        width: 55vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container{
+        width: 45vw;
+    }
+}
